@@ -25,7 +25,7 @@ public:
         else
         {
             if(a < b) return 0;
-            else if((b-a)%c == 0) return 1;
+            else if((a-b)%c == 0) return 1;
             else return 0;
         }
     }
