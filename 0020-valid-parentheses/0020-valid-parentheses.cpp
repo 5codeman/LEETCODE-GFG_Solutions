@@ -11,21 +11,21 @@ public:
             {
                 if(!st.empty() && st.top() == '(') st.pop();
                 
-                else st.push(s[i]);
+                else return false;
             }
             
             else if(s[i] == '}')
             {
                 if(!st.empty() && st.top() == '{') st.pop();
                 
-                else st.push(s[i]);
+                else return false;
             }
             
             else if(s[i] == ']')
             {
                 if(!st.empty() && st.top() == '[') st.pop();
                 
-                else st.push(s[i]);
+                else return false;
             }
         }
         
