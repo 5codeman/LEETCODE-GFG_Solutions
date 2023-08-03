@@ -1,4 +1,4 @@
-#include<stack>
+#include<bits/stdc++.h>
 class MyQueue {
 private:
     stack<int>in;
