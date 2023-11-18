@@ -12,7 +12,7 @@ class Solution{
     // avoid space at the starting of the string in "move disk....."
     long long toh(int N, int from, int to, int aux) {
     // Your code here
-    int count  = 0;
+    int count = 0;
     if(N == 0)
     {
         return 0;
@@ -46,5 +46,5 @@ int main() {
 }
 
 
-//Position this line where user code will be pasted.
+
 // } Driver Code Ends
