@@ -11,7 +11,7 @@ public:
             {
                 if(!st.empty() && st.top() == '(') st.pop();
                 
-                else return false;
+                else return false; // false when wrong character match (eg.'[', '{')or stack is empty
             }
             
             else if(s[i] == '}')
